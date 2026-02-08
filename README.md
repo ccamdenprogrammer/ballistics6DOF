@@ -8,13 +8,13 @@ The simulator models a spinning projectile subject to gravity, aerodynamic drag 
 
 ## Features
 
-- **Full 6-DOF dynamics** — quaternion orientation, spin, precession, and nutation
-- **Mach-dependent drag** — interpolated Cd table across subsonic, transonic, and supersonic regimes
-- **Coriolis effect** — latitude-dependent Earth rotation coupling
-- **3-axis wind** — headwind, crosswind, and vertical wind components
-- **Gyroscopic stability** — spin-dependent Magnus force and pitch damping
-- **Interactive 2D plots** — side view (trajectory + velocity) and top view (drift)
-- **Interactive 3D animation** — real-time bullet model with orientation, Mach-colored trail, telemetry HUD, playback controls, and zoom
+- **Full 6-DOF dynamics**  quaternion orientation, spin, precession, and nutation
+- **Mach-dependent drag**  interpolated Cd table across subsonic, transonic, and supersonic regimes
+- **Coriolis effect**  latitude-dependent Earth rotation coupling
+- **3-axis wind**  headwind, crosswind, and vertical wind components
+- **Gyroscopic stability**  spin-dependent Magnus force and pitch damping
+- **Interactive 2D plots**  side view (trajectory + velocity) and top view (drift)
+- **Interactive 3D animation**  real-time bullet model with orientation, Mach-colored trail, telemetry HUD, playback controls, and zoom
 
 ---
 
