@@ -1,0 +1,18 @@
+# Build
+build/
+
+# Simulation output
+ballistic_report.txt
+ballistic_trajectory.csv
+ballistic_trajectory.png
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
