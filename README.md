@@ -107,7 +107,7 @@ timestep_us       = 50.0        # integration timestep in microseconds
 ## Demos
 
 ### Unstable .308 Caliber
-This particular bullet was configured incorrectly, but I feel that it is a good example of how poorly designed projectiles are simulted in this environment. WHen entering the trans-sonic region, the bullet starts to tumble, hence the oscillation towards the end of the simulation.
+This particular bullet was configured incorrectly, but I feel that it is a good example of how poorly designed projectiles are simulted in this environment. WHen entering the trans-sonic region, trans-sonic instabillity is induced and the bullet starts to oscillate towards the end of the simulation.
 
 **Side View — Trajectory & Velocity**
 
