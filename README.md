@@ -104,6 +104,24 @@ timestep_us       = 50.0        # integration timestep in microseconds
 
 ---
 
+
+### 105mm Howitzer — Artillery (15 kg HE shell, 40° elevation)
+Extremely large artillery rounds such as the 105mm howitzer round are particulalry fun to simulate as the projectiles travel great distances at extreme speeds.
+
+**Side View — Trajectory & Velocity**
+
+![Howitzer Side View](docs/cannon_side.png)
+
+**Top View — Drift**
+
+![Howitzer Top View](docs/cannon_top.png)
+
+**3D Trajectory Animation**
+
+![Howitzer 3D Animation](docs/cannon_3d.gif)
+
+---
+
 ## Demos
 
 ### Unstable .308 Caliber
@@ -120,23 +138,6 @@ This particular bullet was configured incorrectly, but I feel that it is a good 
 **3D Trajectory Animation**
 
 ![.308 3D Animation](docs/rifle_3d.gif)
-
----
-
-
-### 105mm Howitzer — Artillery (15 kg HE shell, 40° elevation)
-
-**Side View — Trajectory & Velocity**
-
-![Howitzer Side View](docs/cannon_side.png)
-
-**Top View — Drift**
-
-![Howitzer Top View](docs/cannon_top.png)
-
-**3D Trajectory Animation**
-
-![Howitzer 3D Animation](docs/cannon_3d.gif)
 
 ---
 
