@@ -123,21 +123,6 @@ This particular bullet was configured incorrectly, but I feel that it is a good 
 
 ---
 
-### 9mm Luger — Pistol (124gr FMJ, 200 m)
-
-**Side View — Trajectory & Velocity**
-
-![9mm Side View](docs/pistol_side.png)
-
-**Top View — Drift**
-
-![9mm Top View](docs/pistol_top.png)
-
-**3D Trajectory Animation**
-
-![9mm 3D Animation](docs/pistol_3d.gif)
-
----
 
 ### 105mm Howitzer — Artillery (15 kg HE shell, 40° elevation)
 
