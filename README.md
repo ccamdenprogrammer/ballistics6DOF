@@ -35,9 +35,11 @@ The simulator models a spinning projectile subject to gravity, aerodynamic drag 
 
 ```bash
 cd ballistic6dof/build
-cmake .. -G "MinGW Makefiles"
+cmake .. -G "MinGW Makefiles" -DEIGEN_DIR=/path/to/eigen
 cmake --build .
 ```
+
+> **Note:** The `-DEIGEN_DIR` flag can be omitted if Eigen3 is installed system-wide and discoverable by CMake's `find_package`.
 
 ---
 

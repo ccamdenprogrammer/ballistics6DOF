@@ -185,7 +185,7 @@ int main(int argc, char* argv[]) {
 
 
     //Launch plotting script
-    std::string python      = "C:\\Users\\camde\\AppData\\Local\\Python\\bin\\python.exe";
+    std::string python      = "python";
     std::string plot_script = "../plot/plot_trajectory.py";
     std::string anim_script = "../plot/animate_3d.py";
 

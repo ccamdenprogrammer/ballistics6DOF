@@ -9,5 +9,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(ballistic6dof src/main.cpp src/atmosphere.cpp src/aero.cpp src/projectile.cpp src/solver.cpp src/report.cpp)
 
 target_include_directories(ballistic6dof PRIVATE include)
-#eigen 
-target_include_directories(ballistic6dof PRIVATE "C:/Users/camde/Desktop/eigen-5.0.0")
+#eigen — set EIGEN_DIR to your local Eigen path, e.g. cmake .. -DEIGEN_DIR=/path/to/eigen
+set(EIGEN_DIR "" CACHE PATH "Path to Eigen header-only library")
+if(EIGEN_DIR)
+    target_include_directories(ballistic6dof PRIVATE "${EIGEN_DIR}")
+else()
+    find_package(Eigen3 REQUIRED NO_MODULE)
+    target_link_libraries(ballistic6dof PRIVATE Eigen3::Eigen)
+endif()
