@@ -2,7 +2,7 @@
 
 A rigid-body **six-degree-of-freedom** ballistic flight simulator written in C++17 with Eigen, featuring interactive Python/Matplotlib visualization and 3D animation.
 
-The simulator models a spinning projectile subject to gravity, aerodynamic drag (Mach-dependent), Magnus effect, gyroscopic moments, Coriolis acceleration, and 3-axis wind — all integrated with a 4th-order Runge-Kutta solver at a 50 &mu;s timestep.
+The simulator models a spinning projectile subject to gravity, aerodynamic drag (Mach-dependent), Magnus effect, gyroscopic moments, Coriolis acceleration, and 3-axis wind integrated with a 4th-order Runge-Kutta solver at a 50 &mu;s timestep.
 
 ---
 
